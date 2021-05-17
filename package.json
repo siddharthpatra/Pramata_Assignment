@@ -1,0 +1,39 @@
+{
+  "name": "parmata_assignment",
+  "version": "1.0.0",
+  "description": "Assignment by Parmata",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddharthpatra/Pramata_Assignment.git"
+  },
+  "author": "Siddharth Patra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siddharthpatra/Pramata_Assignment/issues"
+  },
+  "homepage": "https://github.com/siddharthpatra/Pramata_Assignment#readme",
+  "dependencies": {
+    "@babel/core": "^7.14.2",
+    "@babel/plugin-transform-runtime": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "@babel/runtime": "^7.14.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "optimize-css-assets-webpack-plugin": "^6.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "start": "webpack serve",
+    "build": "NODE_ENV=production webpack",
+    "build-dev": "webpack",
+    "watch": "webpack --watch"
+  }
+}
