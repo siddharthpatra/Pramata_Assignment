@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+body {
+  background-color: #f0f3f6;
+}
+.container {
+  width: 95%;
+  margin: 3% auto;
+}
+#navbar {
+  background-color: #9eadba;
+  height: 25px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.leftContent {
+  width: 20%;
+  box-sizing: border-box;
+  height: 100vh;
+}
+.floatLeft {
+  float: left;
+}
+.floatRight {
+  float: right;
+}
+.rightContent {
+  box-sizing: border-box;
+  width: 80%;
+}
+.displayFlex {
+  display: flex;
+}
+.clear {
+  clear: both;
+}
+nav,
+#dashContent {
+  padding: 5%;
+  box-sizing: border-box;
+  justify-content: center;
+  position: sticky;
+}
+nav {
+  background-color: #dfe7ed;
+  display: flex;
+  width: 25%;
+}
+nav ul {
+  top: 60px;
+  position: absolute;
+}
+.navContent {
+  list-style: none;
+  line-height: 50px;
+  font-size: 24px;
+  opacity: 0.5;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+#dashContent {
+  width: 75%;
+  border-right: 2px solid #c4cdd3;
+}
+header {
+  display: flex;
+  height: 100px;
+  align-items: center;
+}
+.heading p span {
+  font-size: 12px;
+  line-height: 16px;
+  width: 70%;
+}
+header svg {
+  font-size: 25px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+#topSection,
+#bottomSection,
+#dashContent hr {
+  margin: 0 auto;
+  width: 80%;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+#topSection {
+  margin-bottom: 20px;
+}
+#bottomSection {
+  margin-top: 20px;
+}
+#dashContent hr {
+  color: #c4cdd3;
+  background-color: #c4cdd3;
+  border: 1px solid #c4cdd3;
+  border-radius: 10px;
+}
+#topSection li,
+#bottomSection li {
+  list-style: none;
+  margin: 5% 0;
+  box-sizing: border-box;
+  padding: 5%;
+}
+
+#topSection li p span,
+#bottomSection li p span {
+  font-size: 14px;
+  line-height: 20px;
+}
+#topSection li:hover,
+#bottomSection li:hover {
+  background-color: #dfe7ed;
+}
+.active {
+  background-color: #dfe7ed;
+}
+.notActive {
+  background-color: inherit;
+}
+#timelineInput input {
+  width: 100%;
+  height: 10px;
+  background-color: #e1e7ea;
+  border-radius: 5px;
+  outline: none;
+  -webkit-appearance: #6457f6;
+  cursor: pointer;
+}
+
+#timelineInput p span i {
+  font-size: 10px;
+  opacity: 0.5;
+}
+.timelinebar-container,
+.timelineContent {
+  height: 45vh;
+  margin: 20px auto;
+}
+.timelinebar-container {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.timeline-bar {
+  border-left: 7px dotted #c4cdd3;
+}
+.timeline-date {
+  box-sizing: border-box;
+  margin: 10px auto;
+  padding: 10px;
+}
+.timeline-date span {
+  display: block;
+}
+.rangeDate {
+  display: flex;
+}
+.rangeDate span {
+  display: block;
+}
+.dateValues {
+  margin: 10px;
+  flex-grow: 1;
+  text-align: center;
+}
+.dateValues p span {
+  font-size: 16px;
+}
+.timelineContent {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+}
+.timelineBox {
+  box-sizing: border-box;
+  background-color: #dfe7ed;
+  width: 350px;
+  margin: 10px 0;
+  margin: 2% 0;
+  padding: 10px;
+}
+.timelineBox p span {
+  font-size: 12px;
+  line-height: 16px;
+}
+.timelineBox p {
+  display: flex;
+  align-items: center;
+}
+.timelineBox h6 {
+  font-size: 14px;
+}
+.penaltyBox {
+  position: relative;
+  left: calc(35% - 50px);
+  padding: 1%;
+  top: -15px;
+  width: 15%;
+  color: #fff;
+  background-color: #4c5d69;
+}
+.penaltyBox:after {
+  content: " ";
+  position: absolute;
+  right: 194px;
+  top: 8px;
+  transform: rotate(268deg);
+  border-top: none;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-bottom: 5px solid #4c5d69;
+}
+.penaltyBox p, .penaltyBox p span{
+  font-size: 12px;
+  line-height: 18px;
+  color: white;
+}
+.penaltyBox a {
+  text-decoration: none;
+}
+.penaltyBox a i {
+  font-size: 10px;
+  line-height: 12px;
+  color: #fff;
+}
+
+.container header {
+  height: 60px;
+}
