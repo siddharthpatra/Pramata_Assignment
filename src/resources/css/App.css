@@ -141,7 +141,7 @@ header svg {
 }
 .timelinebar-container,
 .timelineContent {
-  height: 45vh;
+  height: 42vh;
   margin: 20px auto;
 }
 .timelinebar-container {
@@ -219,7 +219,8 @@ header svg {
   border-left: 5px solid transparent;
   border-bottom: 5px solid #4c5d69;
 }
-.penaltyBox p, .penaltyBox p span{
+.penaltyBox p,
+.penaltyBox p span {
   font-size: 12px;
   line-height: 18px;
   color: white;
@@ -232,7 +233,10 @@ header svg {
   line-height: 12px;
   color: #fff;
 }
-
+.penaltyBox hr {
+  color: #fff;
+  background-color: #fff;
+}
 .container header {
   height: 60px;
 }
